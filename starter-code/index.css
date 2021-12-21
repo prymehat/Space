@@ -131,20 +131,8 @@ select {
     display: grid;
     
 }
-@media (min-width:23.438rem){
-.grid-container{
-    column-gap: var(--container-gap, 2rem);
-    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(2rem, 1fr);
 
-}
-.grid-container > *:first-child{
-    grid-column: 2;
-}
-.grid-container > *:last-child{
-    grid-column: 3;
-}
-}
-@media (min-width:23.438rem){
+@media (min-width:49rem){
     .grid-container{
         column-gap: var(--container-gap, 2rem);
         grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(2rem, 1fr);
